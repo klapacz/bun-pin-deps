@@ -1,0 +1,35 @@
+{
+  "name": "bun-pin-deps",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "",
+  "scripts": {
+    "build": "bun run build.mjs",
+    "prepublishOnly": "bun run build",
+    "lint": "prettier -w ."
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "bun"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/klapacz/bun-pin-deps#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klapacz/bun-pin-deps.git"
+  },
+  "bugs": "https://github.com/klapacz/bun-pin-deps/issues",
+  "author": "Korneliusz Łapacz <lapacz.kornel@gmail.com>",
+  "devDependencies": {
+    "bun-plugin-dts": "^0.1.0",
+    "bun-types": "^1.0.1",
+    "prettier": "^3.0.3",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "magicast": "^0.2.10"
+  }
+}
